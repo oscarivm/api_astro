@@ -1,0 +1,20 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import imagenesfuerzo from "../assets/cap1.png";
+import Header from "../components/Header.astro";
+---
+
+<Header />
+
+<div class="content-center">
+  <Image src={imagenesfuerzo} alt="Es poco, pero con esfuerzo" width={960} />
+</div>
+
+<footer>
+  <br />
+  <br />
+  <p class="text-center">&copy;oscarivm 2024</p>
+  <br />
+  <br />
+</footer>
